@@ -23,5 +23,4 @@ pub fn main() !void {
         }
         print("\n", .{});
     }
-    print("Force earth-mars: {e:.2}\n", .{phy.gravitationalForce(planets[0], planets[3])});
 }
